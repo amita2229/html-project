@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student record</title>
+
+    <style>
+        table,tr,td,th{
+            border: 1px solid rgba(66, 66, 109, 0.5);
+            text-align: center;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+<table>
+     <!--Tables-->
+     <h3>Tables</h3>
+
+     <table style="width: 50%;"> <!-- start of a table-->
+        <!-- Table Body-->
+        <tr>  <!--Table Row-->
+            <th> <!--Table Heading-->
+                Name
+            </th>
+            <th>
+                No
+            </th>
+            <th>
+                class
+            </th>
+        </tr>
+
+
+    <!--  Table Head  -->
+        <tr>
+            <td> <!-- Table -->
+                Amita
+            </td>
+            <td>
+                101
+            </td>
+            <td>
+                BSC II
+            </td>
+        </tr>
+        <tr>
+            <td> <!--Table Data-->
+                Yash
+            </td>
+            <td>
+                102
+            </td>
+            <td>
+                BSC II
+            </td>
+        </tr>
+        <tr> <!--Table Foot-->
+
+            <td> 
+                Amit
+            </td>
+            <td>
+                103
+            </td>
+            <td>
+                BSC II
+            </td>
+        </tr>
+</table> <!-- End of a table-->
+
+        <hr>
+
+        <!--
+            Merging of cells :
+                -Rows
+                    -Rowspan  -> Merging number of row's cells
+                -Columns
+                    -Colspan  -> Merging number of column's cells
+        -->
+
+        <h4> Rowspan Example</h4>
+        <table style="width: 50%">
+            <tbody>
+                <tr>
+                    <td>Sql</td>
+                    <td>Pl Sql</td>
+                    <td rowspan="2">Query</td>
+                    
+                </tr>
+
+                <tr>
+                    <td>Java</td>
+                    <td>Java sprit</td>
+                   
+                </tr>
+
+                <tr>
+                    <td>python</td>
+                    <td>Python code</td>
+                    <td>C</td>
+
+                </tr>
+
+            </tbody>
+        </table>
+
+        <hr>
+
+        <h4>Coispan Example</h4>
+        <table style="width: 50%">
+            <tbody>
+                <tr>
+                    <td>Rutuja</td>
+                    <td>Lucky</td>
+                    <td>Kalyani</td>
+                </tr>
+
+                <tr>
+                    <td>Abhi</td>
+                    <td>Sami</td>
+                    <td>Payal</td>
+                </tr>
+
+                <tr>
+                    <td colspan="3">Amita</td> <!-- Merging 2 collumn's cells-->
+                </tr>
+
+            </tbody>
+        </table>
+
+        <hr>
+
+        <h3>Lists</h3>
+        <!--
+            Lists
+                -Turning the data elements into a listing part;
+                -Types of list
+                    -Ordered List
+        -->
+</body>
